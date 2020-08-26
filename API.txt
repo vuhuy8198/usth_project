@@ -1,0 +1,15 @@
+http://ott.bbp.mediatech.vn/api/config?app_id=kspbV2Y7diY6kcN
+Danh sách api app bình phước
+
+1. http://ott.bbp.mediatech.vn/api/category?native=1&type=live&app_id=kspbV2Y7diY6kcN => api config app
+2. http://ott.bbp.mediatech.vn/api/v1/category?type=video => danh sách chuyên mục: type=video,news,live
+3. http://ott.bbp.mediatech.vn/api/v1/article/index  => danh sách bài viết
+	- method: Get
+	- params: 
+		+ type =video hoặc news
+		+ category_id Id chuyên mục
+
+4. http://ott.bbp.mediatech.vn/api/v1/article/view => chi tiết vài viết
+	- method: GET
+	- params: 
+		+ id => ID bài viết
